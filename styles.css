@@ -1,0 +1,20 @@
+#lilrectangle {
+columns: 0px
+;
+}
+
+section {
+  columns: 0px;
+}
+
+#redlight {
+  margin: 25% 25% 25% 25%;
+}
+
+#yellowlight {
+  margin: 25% 25% 25% 25%;
+}
+
+#greenlight {
+  margin: 25% 25% 25% 25%;
+}
