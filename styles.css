@@ -1,20 +1,48 @@
-#lilrectangle {
-columns: 0px
-;
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: darkblue;
+  margin: 0;
 }
 
-section {
-  columns: 0px;
+.lilrectangle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 15vh; 
+  width: 5vh;
+  background-color: black;
 }
 
-#redlight {
-  margin: 25% 25% 25% 25%;
+.lightpost {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 10vh;
+  background-color: black;
+  align-content: center;
+
 }
 
-#yellowlight {
-  margin: 25% 25% 25% 25%;
+.light {
+  border-radius: 50%;
+  height: 10vh;
+  width: 10vh;
 }
 
-#greenlight {
-  margin: 25% 25% 25% 25%;
+.red:hover {
+  background-color: red;
+  box-shadow: 0 0 30px rgb(255, 0, 34);
+}
+
+.yellow {
+  background-color: yellow;
+  box-shadow: 0 0 30px rgb(255, 0, 34);
+  
+}
+
+.green {
+  background-color: green;
+  box-shadow: 0 0 30px rgb(255, 0, 34);
 }
